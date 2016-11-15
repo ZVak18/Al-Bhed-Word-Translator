@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="in" type="text">
+    <input type="button" id="bt1" onclick="bhedTester()" value="Try Me">
+<div id="this">
+</div>
+
+<script>
+document.getElementById("in").addEventListener("change", function(){
+    var input = document.getElementById("in");
+        value = document.getElementById("in").value;
+    document.getElementById("this").innerHTML = bhedTester();
+});
+function bhedTester() {
+    alpha = ["A", "B", "C"];
+    bhed = ["J", "Y", "I"];
+    norm = document.getElementById("in").value.toUpperCase();
+
+    btext = "";
+    i = 0;
+
+    while (i < norm.length) {
+        ind = alpha.indexOf(norm.charAt(i));
+        btext = btext + bhed.charAt(ind);
+        i++;
+    }
+    return btext;
+}
+</script>
+
+</body>
+</html>
