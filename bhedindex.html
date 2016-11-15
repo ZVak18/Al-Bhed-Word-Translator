@@ -12,7 +12,7 @@ document.getElementById("in").addEventListener("change", function(){
         value = document.getElementById("in").value;
     document.getElementById("this").innerHTML = bhedTester();
 });
-function bhedTester() {
+window.bhedTester = function() {
     alpha = ["A", "B", "C"];
     bhed = ["J", "Y", "I"];
     norm = document.getElementById("in").value.toUpperCase();
