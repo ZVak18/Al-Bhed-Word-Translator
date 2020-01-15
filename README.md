@@ -1,7 +1,8 @@
-# Al-Bhed-Word-Translator
-Single word - English to Al Bhed translator.
+# Translator
+Fun translator for custom languages that are simple.
 
-Set within an HTML page, takes Javascript code to perform a simple translation from English to <a href="http://finalfantasy.wikia.com/wiki/Al_Bhed">Al Bhed</a>. 
+Current Languages:
+<a href="http://finalfantasy.wikia.com/wiki/Al_Bhed">Al Bhed</a>.
+Binary
 
-**NOTE**
-Al Bhed is a language based from the Final Fantasy series created by Square Enix. 
+
